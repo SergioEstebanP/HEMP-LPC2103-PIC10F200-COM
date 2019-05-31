@@ -62,7 +62,7 @@ int main() {
 	dir[6]='0';
 	dir[7]='0';
 
-	bytePrueba = '\x01';
+	bytePrueba = '\x02';
 
 	Lcd_Init();
 	UART0_Init();
@@ -436,5 +436,15 @@ char key(void){
 		}
 	}
 }
+
+/*
+
+Project notes
+
+0x10000000 : 0x08
+
+
+
+*/
 
 
