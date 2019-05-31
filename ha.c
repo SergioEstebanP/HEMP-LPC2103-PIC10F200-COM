@@ -29,6 +29,7 @@ void Lcd_Write_Text(unsigned char msg[]);
 void Lcd_Data_Shift(unsigned char value);
 char c;
 char bytePrueba;
+char bytePrueba1;
 void Delay_ms(unsigned long times);
 char key(void);
 
@@ -62,7 +63,8 @@ int main() {
 	dir[6]='0';
 	dir[7]='0';
 
-	bytePrueba = '\x02';
+	bytePrueba = '\x01';
+
 
 	Lcd_Init();
 	UART0_Init();
@@ -76,6 +78,8 @@ int main() {
 	IODIR0|=0x0001E000;
 
 			
+	UART0_Write(bytePrueba);
+	Delay_ms(1);
 	UART0_Write(bytePrueba);
  	while(1) {
 		//UART0_Write_Text((unsigned char *)pulsado, 0);

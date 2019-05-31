@@ -1,6 +1,6 @@
 Dependencies for Project 'trabajo', Target 'Target 1': (DO NOT MODIFY !)
 F (.\Startup.s)(0x5CE570B0)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
-F (.\ha.c)(0x5CEFF164)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\ha.o --omf_browse .\ha.crf --depend .\ha.d)
+F (.\ha.c)(0x5CF154B2)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\ha.o --omf_browse .\ha.crf --depend .\ha.d)
 I (lpc21xx.h)(0x5CE570AD)
 I (minilib.h)(0x5CE570AF)
 I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C819B4)
